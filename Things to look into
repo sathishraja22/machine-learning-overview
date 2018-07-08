@@ -1,0 +1,36 @@
+Things to look into:
+
+training, dev & test set
+learning_rate, training_epochs, batch_size, display_step
+bias and variance 
+linear regression
+SVM
+logistic regression
+relu
+pooling
+activation function
+cost function
+softmax
+gradient descent/ Adam
+dropout
+regularisation - L1 & L2
+over-fitting and under-fitting 
+early stopping
+precision, recall and F1 score https://en.wikipedia.org/wiki/Precision_and_recall
+classification error metric
+primary metric and satisfactory metric
+human-level error, bayes error, training error, dev error, test error
+error analysis
+transfer learning, multi-task learning and end-to-end learning
+data augmentation and synthesis
+CNNs
+Conv
+Relu
+pooling
+BN
+Vanishing gradients
+Resnet
+Localisation, Landmark Detection
+IoU
+Non-max suppression
+anchor box
