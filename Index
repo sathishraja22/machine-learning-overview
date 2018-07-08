@@ -1,0 +1,58 @@
+Programming Language
+Python, C, C++, Tensorflow, Keras
+
+Probability & Statistics
+Combinatorics, Probability Rules & Axioms, Bayes’ Theorem, Random Variables, Variance and Expectation, Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian), Moment Generating Functions, Maximum Likelihood Estimation (MLE), Prior and Posterior, Maximum a Posteriori Estimation (MAP) and Sampling Methods
+
+Linear Algebra
+Scalar, Vector, Matrix
+Matrix Operations, Vectorization
+Inverse, Transpose
+Eigen Vectors
+
+Calculus & Numerical Optimization
+Back-propagation
+Error analysis
+Differential and Integral Calculus, Partial Derivatives, Vector-Values Functions, Directional Gradient, Hessian, Jacobian, Laplacian and Lagragian Distribution.
+
+Classification
+Logistic Regression
+Support Vector Machines
+K-nearest Neighbor
+
+Regression
+Linear Regression
+
+Clustering
+K-means Algorithm
+
+Anomaly Detection
+Gaussian Distribution
+
+Recommender Systems
+Matrix Factorization
+Content Based Recommendations
+Collaborative Filtering
+
+Dimensionality reduction
+Principle Component Analysis
+
+Deep Learning
+Neural Networks
+Convolutional Neural Networks
+Image Classification
+Landmark Detection
+Object Localization 
+Object Detection
+Recurrent Neural Networks
+Long Short Term Memory
+Gated Recurrent Unit
+Natural Language Processing
+Word2Vec
+GloVe
+Image Captioning
+Image Recognition
+Image Verification
+Attention Mechanism
+Speech Recognition
+Trigger Word Detection
