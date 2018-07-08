@@ -1,0 +1,22 @@
+np.multiply - element wise multiplication 
+np.dot - matrix multiplication 
+
+Tensorflow support many front end programming languages, like Python, C++, Java and Go and the core language is C++, how the other languages transform the Graph to C++? They use a tool called protobuf which can generate specific language stubs, that's where the GraphDef come from. It's a serialized version of Graph. 
+
+A Tool Developer's Guide to TensorFlow Model File 
+https://www.tensorflow.org/extend/tool_developers/
+
+A Tool Developer's Guide to TensorFlow Model Files
+www.tensorflow.org
+Most users shouldn't need to care about the internal details of how TensorFlow stores data on disk, but you might if you're a tool developer. For example, you may want to analyze models, or convert back and forth between TensorFlow and other formats. This guide tries to explain some of the details ...
+
+Graph, GraphDef, NodeDef - name, op, input, device, attr 
+
+Freezing: 
+What this does is load the GraphDef, pull in the values for all the variables from the latest checkpoint file, and then replace each Variable op with a Const that has the numerical data for the weights stored in its attributes It then strips away all the extraneous nodes that aren't used for forward inference, and saves out the resulting GraphDef into an output file. 
+
+Vanishing gradient 
+The main benefit of a very deep network is that it can represent very complex functions. It can also learn features at many different levels of abstraction, from edges (at the lower layers) to very complex features (at the deeper layers). However, using a deeper network doesn't always help. A huge barrier to training them is vanishing gradients: very deep networks often have a gradient signal that goes to zero quickly, thus making gradient descent unbearably slow. More specifically, during gradient descent, as you backprop from the final layer back to the first layer, you are multiplying by the weight matrix on each step, and thus the gradient can decrease exponentially quickly to zero (or, in rare cases, grow exponentially quickly and "explode" to take very large values). 
+
+PCA
+https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c
